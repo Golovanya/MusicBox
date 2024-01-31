@@ -110,6 +110,7 @@ header {
 .header li {
   margin-right: 25px;
   display: inline;
+  text-transform: uppercase;
 }
 
 .screach {
