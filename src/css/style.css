@@ -208,6 +208,9 @@ form :first-child {
   .baner {
     padding-top: 248px;
   }
+  .baner p {
+    margin-top: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
