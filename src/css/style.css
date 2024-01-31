@@ -70,7 +70,7 @@ ul {
   text-transform: uppercase;
 }
 
-#page-section {
+#page-description {
   height: 750px;
   position: relative;
 }
@@ -178,7 +178,7 @@ form :first-child {
 }
 
 @media (max-width: 415px) {
-  #page-section {
+  #page-description {
     height: 853px;
   }
   .header {
