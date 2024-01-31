@@ -1,0 +1,143 @@
+#page-section {
+  height: 750px;
+  position: relative;
+}
+.bacground-head {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+header {
+  position: absolute;
+  top: 25px;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+.header {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 16px;
+    }
+  }
+  li{
+    margin-right: 25px;
+    display: inline;
+  }
+}
+.screach {
+  margin-left: auto;
+
+}
+.screach-input{
+  border-radius: 50px;
+  width: 248px;
+  height: 25px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: none;
+  background-color: $dark;
+  color: #757575;
+  font-family: Arial;
+  font-size: 13.3px;
+}
+
+.baner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 200px;
+  text-align: center;
+  align-items: center;
+  
+  p{
+    margin-top: 30px;
+    margin-bottom: 17px;
+    color: white;
+  }
+}
+form{
+  display: flex;
+  max-width: 570px;
+  flex-wrap: wrap;
+    :first-child{
+      margin-right: 24px;
+    }
+}
+.form-input{
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  font-family:  "Roboto-bold";
+  background: none;
+  border: solid 2px $dark-gray;
+  border-radius: 3px;
+   
+}
+.form-input::placeholder{
+  color: white;
+ }
+.baner-btn{
+  width: 100%;
+  background-color: #34C176;
+  border: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 415px){
+  #page-section{
+    height: 853px;
+  }
+  .header{
+    flex-direction: column;
+    align-items: flex-start;
+    li{
+      display: block;
+    }
+  }
+  nav{
+    margin-top: 18px;
+  }
+  .screach-input{
+    width: 100%;
+    
+  }
+  .screach{
+    margin: 0px;
+    width: 100%;
+    margin-top: 18px;
+  }
+  .form-input{
+    width: 100%;
+  }
+  form{
+    :first-child{
+      margin-right: 0;
+    }
+  }
+}
