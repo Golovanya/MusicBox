@@ -3,6 +3,7 @@
   text-align: center;
   padding-top: 100px;
   height: 908px;
+  padding: 0 20px;
 }
 h2 {
   margin-bottom: 48px;
@@ -62,5 +63,10 @@ h2 {
 @media (max-width: 415px){
     #page-pricing{
         height: 2200px;
+    }
+    .price-card{
+        h3{
+            margin-top: 16px;
+        }
     }
 }
