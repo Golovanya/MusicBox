@@ -3,8 +3,11 @@
   text-align: center;
   padding-top: 100px;
   height: 908px;
-  padding-top: 100px;
-    
+  padding-top: 100px;  
+    .container{
+        max-width: 1240px;
+        padding: 0 20px;
+    }
 }
 
 h2 {
@@ -63,7 +66,7 @@ h2 {
   background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 @media (max-width: 415px){
-    #page-pricing{
+    .pageprice{
         height: 2200px;
     }
     .price-card{
