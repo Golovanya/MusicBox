@@ -1,0 +1,66 @@
+#page-pricing {
+  background-color: $black;
+  text-align: center;
+  padding-top: 100px;
+  height: 908px;
+}
+h2 {
+  margin-bottom: 48px;
+}
+.card-section {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.price-card {
+  max-width: 366.6px;
+  padding: 0 1.5rem;
+  color: white;
+  border-radius: 1rem;
+  h3 {
+    margin-bottom: 200px;
+    margin-top: 24px;
+    font-weight: 400;
+  }
+  button {
+    margin-bottom: 64px;
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    a {
+      color: white;
+      font-size: 16px;
+      
+    }
+  }
+  span {
+    color: white;
+  }
+  .small-text {
+    margin-bottom: 64px;
+  }
+}
+.price {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  line-height: 1em;
+}
+
+.bg-free {
+  background: url("../images/subscribe_1.png") center center/cover no-repeat;
+}
+.bg-standart {
+  background: url("../images/subscribe_2.png") center center/cover no-repeat;
+}
+.bg-premium {
+  background: url("../images/subscribe_3.png") center center/cover no-repeat;
+}
+@media (max-width: 415px){
+    #page-pricing{
+        height: 2200px;
+    }
+}

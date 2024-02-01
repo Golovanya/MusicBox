@@ -32,6 +32,12 @@ h2 {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+h3{
+  font-size: 24px;
+  font-family: "Roboto-regular";
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 @media (max-width: 415px) {
     h1 {
         font-size: 30px;
@@ -44,6 +50,11 @@ h2 {
         font-family: "Roboto-Bold";
         line-height: 27px;
         text-transform: uppercase;
+    }
+    h3{
+      font-size: 16px;
+      font-family:"Roboto-Bold";
+      line-height: 24px;
     }
     .container{
       width: 100%;
@@ -59,6 +70,9 @@ h2 {
 a{
   text-decoration: none;
 }
+a:visited{
+  text-decoration: none;
+}
 ul{
   list-style: none; 
 }
@@ -67,4 +81,20 @@ ul{
   border-radius: 5px;
   color: white;
   text-transform: uppercase;
+}
+.small-text{
+  font-size: 12.8px;
+}
+.text-size1{
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-size3{
+  font-size: 32px;
+}
+.text-size7{
+  font-size: 64px;
+}
+p{
+  color: white;
 }

@@ -31,6 +31,13 @@ h2 {
   color: #FFFFFF;
 }
 
+h3 {
+  font-size: 24px;
+  font-family: "Roboto-regular";
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 30px;
@@ -43,6 +50,11 @@ h2 {
     font-family: "Roboto-Bold";
     line-height: 27px;
     text-transform: uppercase;
+  }
+  h3 {
+    font-size: 16px;
+    font-family: "Roboto-Bold";
+    line-height: 24px;
   }
   .container {
     width: 100%;
@@ -59,6 +71,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -68,6 +84,27 @@ ul {
   border-radius: 5px;
   color: white;
   text-transform: uppercase;
+}
+
+.small-text {
+  font-size: 12.8px;
+}
+
+.text-size1 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-size3 {
+  font-size: 32px;
+}
+
+.text-size7 {
+  font-size: 64px;
+}
+
+p {
+  color: white;
 }
 
 #page-description {
@@ -210,6 +247,77 @@ form :first-child {
   }
   .baner p {
     margin-top: 16px;
+  }
+}
+#page-pricing {
+  background-color: #08020D;
+  text-align: center;
+  padding-top: 100px;
+  height: 908px;
+}
+
+h2 {
+  margin-bottom: 48px;
+}
+
+.card-section {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.price-card {
+  max-width: 366.6px;
+  padding: 0 1.5rem;
+  color: white;
+  border-radius: 1rem;
+}
+.price-card h3 {
+  margin-bottom: 200px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+.price-card button {
+  margin-bottom: 64px;
+  width: 100%;
+  background: none;
+  border: 1px solid white;
+}
+.price-card button a {
+  color: white;
+  font-size: 16px;
+}
+.price-card span {
+  color: white;
+}
+.price-card .small-text {
+  margin-bottom: 64px;
+}
+
+.price {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  line-height: 1em;
+}
+
+.bg-free {
+  background: url("../images/subscribe_1.png") center center/cover no-repeat;
+}
+
+.bg-standart {
+  background: url("../images/subscribe_2.png") center center/cover no-repeat;
+}
+
+.bg-premium {
+  background: url("../images/subscribe_3.png") center center/cover no-repeat;
+}
+
+@media (max-width: 415px) {
+  #page-pricing {
+    height: 2200px;
   }
 }
 
