@@ -249,13 +249,16 @@ form :first-child {
   .baner p {
     margin-top: 16px;
   }
+  .baner h2 {
+    margin-bottom: 16px;
+  }
 }
-#page-pricing {
+.pageprice {
   background-color: #08020D;
   text-align: center;
   padding-top: 100px;
   height: 908px;
-  padding: 0 20px;
+  padding-top: 100px;
 }
 
 h2 {
