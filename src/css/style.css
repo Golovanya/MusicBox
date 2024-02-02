@@ -256,13 +256,12 @@ form :first-child {
 .pageprice {
   background-color: #08020D;
   text-align: center;
-  padding-top: 100px;
   height: 908px;
-  padding-top: 100px;
 }
 .pageprice .container {
   max-width: 1240px;
   padding: 0 20px;
+  padding-top: 100px;
 }
 
 h2 {
