@@ -325,10 +325,11 @@ h2 {
 
 @media (max-width: 415px) {
   .pageprice {
-    height: 2200px;
+    height: 2222px;
   }
   .price-card h3 {
     margin-top: 16px;
+    font-weight: 400;
   }
 }
 
