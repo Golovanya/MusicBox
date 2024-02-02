@@ -331,6 +331,15 @@ h2 {
     margin-top: 16px;
     font-weight: 400;
   }
+  .bg-free {
+    background: url("../images/subscribe_1.png") 0 0/cover no-repeat;
+  }
+  .bg-standart {
+    background: url("../images/subscribe_2.png") 0 0/cover no-repeat;
+  }
+  .bg-premium {
+    background: url("../images/subscribe_3.png") 0 0/cover no-repeat;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
