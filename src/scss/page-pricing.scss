@@ -71,7 +71,7 @@ h2 {
         height: 2222px;
     }
     .price-card{
-      width: 374px;
+      
         h3{
             margin-top: 16px;
             font-weight: 400;
@@ -79,11 +79,19 @@ h2 {
     }
     .bg-free {
       background: url("../images/subscribe_1.png") 0 0/cover no-repeat;
+      width: 374px;
+      height: 598px
+
+
     }
     .bg-standart {
       background: url("../images/subscribe_2.png") 0 0/cover no-repeat;
+      width: 374px;
+      height: 598px;
     }
     .bg-premium {
       background: url("../images/subscribe_3.png") 0 0/cover no-repeat;
+      width: 374px;
+      height: 598px
     }
 }
