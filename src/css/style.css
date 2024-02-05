@@ -261,7 +261,6 @@ form :first-child {
 .pageprice .container {
   max-width: 1240px;
   padding: 0 20px;
-  padding-top: 100px;
 }
 
 h2 {
@@ -369,6 +368,9 @@ h2 {
   gap: 50px;
   margin-bottom: 65px;
 }
+.news-item span {
+  font-size: 12px;
+}
 
 .news-item:last-of-type {
   margin-bottom: 0px;
@@ -395,6 +397,7 @@ h2 {
   text-align: left;
 }
 .news-text h3 {
+  font-size: 30px;
   font-family: "Roboto-regular";
   margin-bottom: 30px;
   font-weight: 400;
@@ -425,6 +428,9 @@ h2 {
   }
   .news-item:last-of-type {
     flex-direction: column-reverse;
+  }
+  h3 {
+    margin-bottom: 16px;
   }
 }
 
