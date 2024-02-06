@@ -480,7 +480,7 @@ h2 {
 @media (max-width: 415px) {
   .app-container {
     flex-direction: column-reverse;
-    gap: 16px;
+    gap: 0px;
   }
   .text-block-app {
     width: 100%;
