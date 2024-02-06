@@ -17,7 +17,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: $black;
+}
 h1 {
     font-size: 60px;
     font-family: "Roboto-Bold";

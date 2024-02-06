@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #08020D;
+}
+
 h1 {
   font-size: 60px;
   font-family: "Roboto-Bold";
@@ -437,7 +441,8 @@ h2 {
 }
 #page-app {
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
+  background-color: #08020D;
 }
 #page-app h2 {
   margin-bottom: 48px;
@@ -449,6 +454,7 @@ h2 {
 }
 
 .text-block-app {
+  margin-top: 16px;
   width: 50%;
   text-align: start;
   font-size: 16px;
