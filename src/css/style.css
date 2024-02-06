@@ -111,6 +111,14 @@ p {
   color: white;
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
 #page-description {
   height: 750px;
   position: relative;
@@ -461,8 +469,6 @@ h2 {
 }
 .text-block-app p {
   color: #CACACA;
-  margin-bottom: 16px;
-  margin-top: 16px;
 }
 
 .btn-app {
@@ -484,9 +490,6 @@ h2 {
   }
   .text-block-app {
     width: 100%;
-  }
-  p {
-    margin-top: 0px;
   }
   .iphone-image {
     width: 333px;

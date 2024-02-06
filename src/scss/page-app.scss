@@ -18,8 +18,7 @@
         font-size: 16px;
         p{
             color: $dark-gray;
-            margin-bottom: 16px;
-            margin-top: 16px;
+            
         }
     }
 .btn-app{
@@ -39,13 +38,13 @@
   .app-container{
     flex-direction: column-reverse;
     gap:0px;
+
   }
 .text-block-app{
     width: 100%;
+    
 }
-p{
-    margin-top: 0px;
-}
+
 .iphone-image{
     width: 333px;
     height: 278px;
