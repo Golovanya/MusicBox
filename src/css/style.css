@@ -455,7 +455,6 @@ h2 {
 }
 
 .text-block-app {
-  margin-top: 16px;
   width: 50%;
   text-align: start;
   font-size: 16px;
@@ -478,10 +477,6 @@ h2 {
   font-size: 12.8px;
 }
 
-.iphone-image {
-  margin: auto;
-}
-
 @media (max-width: 415px) {
   .app-container {
     flex-direction: column-reverse;
@@ -489,6 +484,9 @@ h2 {
   }
   .text-block-app {
     width: 100%;
+  }
+  p {
+    margin-top: 0px;
   }
 }
 
