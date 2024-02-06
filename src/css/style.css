@@ -488,6 +488,11 @@ h2 {
   p {
     margin-top: 0px;
   }
+  .iphone-image {
+    width: 333px;
+    height: 278px;
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
