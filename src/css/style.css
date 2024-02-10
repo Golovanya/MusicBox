@@ -515,7 +515,8 @@ footer h3 {
   font-size: 18px;
 }
 footer .container {
-  padding: 0;
+  padding: 0 20px;
+  max-width: 1240px;
 }
 footer img {
   margin-right: 24px;
@@ -526,6 +527,7 @@ footer img {
   height: 2px;
   background-color: #CACACA;
   margin-top: 72px;
+  margin-bottom: 40px;
 }
 
 .menu_col {

@@ -14,7 +14,8 @@ footer{
       font-size: 18px;
   }
   .container{
-    padding: 0;
+    padding: 0 20px;
+    max-width: 1240px;
   }
   img{
     margin-right: 24px;
@@ -26,6 +27,7 @@ footer{
   height: 2px;
   background-color: $dark-gray;
   margin-top: 72px;
+  margin-bottom: 40px
 }
 .menu_col{
   margin-top: 62px;
