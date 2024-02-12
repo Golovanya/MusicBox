@@ -61,12 +61,12 @@ h3 {
   }
   .container {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px;
   }
 }
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
+  padding: 0px 20px;
   margin: auto;
 }
 
@@ -224,7 +224,7 @@ form :first-child {
 
 .baner-btn {
   width: 100%;
-  background-color: #34C176;
+  background-color: #34c176;
   border: none;
 }
 
@@ -566,11 +566,11 @@ footer img {
 }
 
 .artist-btn:first-child {
-  background-color: #5328A1;
+  background-color: #5328a1;
 }
 
 .artist-btn:last-child {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .artist-btn {
@@ -595,6 +595,51 @@ footer img {
   }
   .artist-baner {
     padding-top: 225px;
+  }
+}
+#page-popular-track {
+  padding-top: 100px;
+}
+#page-popular-track h2 {
+  margin-bottom: 48px;
+}
+#page-popular-track h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+#page-popular-track p {
+  font-size: 12.8px;
+  color: #CACACA;
+}
+#page-popular-track img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.tracks-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+}
+
+.track-info {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+}
+
+@media (max-width: 415px) {
+  .tracks-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
