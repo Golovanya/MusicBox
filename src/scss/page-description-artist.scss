@@ -39,7 +39,8 @@
 }
 @media (max-width: 415px){
     .artist-btns{
-        flex-direction: column
+        flex-direction: column;
+        gap: 24px;
     }
     .artist-baner{
         padding-top: 225px;
