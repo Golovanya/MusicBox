@@ -1,5 +1,5 @@
 #page-description {
-  height: 750px;
+ 
   position: relative;
 }
 .bacground-head {
@@ -78,6 +78,7 @@ form{
   display: flex;
   max-width: 570px;
   flex-wrap: wrap;
+  margin-bottom: 200px;
     :first-child{
       margin-right: 24px;
     }
@@ -107,9 +108,7 @@ form{
 
 
 @media (max-width: 415px){
-  #page-description{
-    height: 853px;
-  }
+ 
   .header{
     flex-direction: column;
     align-items: flex-start;
