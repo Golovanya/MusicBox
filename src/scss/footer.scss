@@ -2,7 +2,7 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
-.footer_grid {
+.footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 270px);
   grid-gap: 40px;
@@ -35,7 +35,7 @@ footer {
   margin-bottom: 40px;
 }
 
-.footer_links {
+.footer-links {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -43,11 +43,11 @@ footer {
 }
 
 @media (width <= 415px) {
-  .footer_links {
+  .footer-links {
     flex-direction: column;
   }
 
-  .footer_grid {
+  .footer-grid {
     gap: 30px;
   }
 }

@@ -22,14 +22,6 @@
   padding-bottom: 224px;
 }
 
-.artist-btn:first-child {
-  background-color: #5328a1;
-}
-
-.artist-btn:last-child {
-  background-color: #95390c;
-}
-
 .artist-btn {
   display: flex;
   align-items: center;
@@ -38,6 +30,7 @@
   width: 200px;
   font-size: 12.8px;
 
+
   img {
     width: 20px;
     height: 20px;
@@ -45,6 +38,14 @@
   }
 
   border: none;
+}
+
+.artist-btn:first-child {
+  background-color: #5328a1;
+}
+
+.artist-btn:last-child {
+  background-color: #95390c;
 }
 
 @media (width <= 415px) {
