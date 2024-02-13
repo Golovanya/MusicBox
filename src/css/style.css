@@ -684,13 +684,12 @@ footer img {
 }
 #page-similar {
   padding-top: 100px;
-  padding-bottom: 100px;
   padding-right: 50px;
 }
 #page-similar img {
   width: 250px;
   height: 250px;
-  margin-bottom: 18px;
+  margin-bottom: 11px;
 }
 #page-similar h3 {
   font-size: 18px;
