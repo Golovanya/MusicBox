@@ -1,6 +1,7 @@
 #page-description {
   position: relative;
 }
+
 .bacground-head {
   background-image: url("../images/banner.png");
   background-position: center;
@@ -16,6 +17,7 @@ header {
   transform: translate(-50%, 0);
   width: 100%;
 }
+
 .header {
   font-size: 11px;
   display: flex;
@@ -26,21 +28,25 @@ header {
     display: flex;
     align-items: center;
     margin-right: 90px;
+
     img {
       width: 24px;
       height: 24px;
       margin-right: 16px;
     }
   }
+
   li {
     margin-right: 25px;
     display: inline;
     text-transform: uppercase;
   }
 }
+
 .screach {
   margin-left: auto;
 }
+
 .screach-input {
   border-radius: 50px;
   width: 248px;
@@ -68,73 +74,88 @@ header {
     margin-bottom: 17px;
     color: white;
   }
+
   h2 {
     margin-bottom: 30px;
   }
 }
+
 form {
   display: flex;
   max-width: 570px;
   flex-wrap: wrap;
   margin-bottom: 200px;
+
   :first-child {
     margin-right: 24px;
   }
 }
+
 .form-input {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
   margin-bottom: 1.5rem;
   font-size: 14px;
-  font-family: "Roboto-bold";
+  font-family: Roboto-bold;
   background: none;
   border: solid 2px $dark-gray;
   border-radius: 3px;
 }
+
 .form-input::placeholder {
   color: white;
 }
+
 .baner-btn {
   width: 100%;
   background-color: #34c176;
   border: none;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
+
     li {
       display: block;
     }
   }
+
   nav {
     margin-top: 18px;
   }
+
   .screach-input {
     width: 100%;
   }
+
   .screach {
-    margin: 0px;
+    margin: 0;
     width: 100%;
     margin-top: 18px;
   }
+
   .form-input {
     width: 100%;
   }
+
   form {
     :first-child {
       margin-right: 0;
     }
   }
+
   .baner {
     padding-top: 248px;
+
     h2 {
       margin-bottom: 16px;
     }
+
     p {
-      margin-top: 0px;
+      margin-top: 0;
     }
   }
 }

@@ -1,13 +1,15 @@
 @font-face {
-  font-family: "Roboto-regular";
+  font-family: Roboto-regular;
   src: url("../fonts/Roboto-Regular.ttf");
 }
+
 @font-face {
-  font-family: "Roboto-bold";
+  font-family: Roboto-bold;
   src: url("../fonts/Roboto-Bold.ttf");
 }
+
 * {
-  font-family: "Roboto-regular";
+  font-family: Roboto-regular;
   line-height: 1.5;
   color: #CACACA;
   margin: 0;
@@ -21,52 +23,56 @@ body {
 
 h1 {
   font-size: 60px;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold;
   line-height: 90px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 h2 {
   font-size: 38px;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold;
   line-height: 57px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 h3 {
   font-size: 24px;
-  font-family: "Roboto-regular";
+  font-family: Roboto-regular;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   h1 {
     font-size: 30px;
-    font-family: "Roboto-Bold";
+    font-family: Roboto-Bold;
     line-height: 45px;
     text-transform: uppercase;
   }
+
   h2 {
     font-size: 18px;
-    font-family: "Roboto-Bold";
+    font-family: Roboto-Bold;
     line-height: 27px;
     text-transform: uppercase;
   }
+
   h3 {
     font-size: 16px;
-    font-family: "Roboto-Bold";
+    font-family: Roboto-Bold;
   }
+
   .container {
     width: 100%;
-    padding: 0px 20px;
+    padding: 0 20px;
   }
 }
+
 .container {
   max-width: 1240px;
-  padding: 0px 20px;
+  padding: 0 20px;
   margin: auto;
 }
 
@@ -145,16 +151,19 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .header .logo {
   display: flex;
   align-items: center;
   margin-right: 90px;
 }
+
 .header .logo img {
   width: 24px;
   height: 24px;
   margin-right: 16px;
 }
+
 .header li {
   margin-right: 25px;
   display: inline;
@@ -188,10 +197,12 @@ header {
   text-align: center;
   align-items: center;
 }
+
 .baner p {
   margin-bottom: 17px;
   color: white;
 }
+
 .baner h2 {
   margin-bottom: 30px;
 }
@@ -202,6 +213,7 @@ form {
   flex-wrap: wrap;
   margin-bottom: 200px;
 }
+
 form :first-child {
   margin-right: 24px;
 }
@@ -212,7 +224,7 @@ form :first-child {
   padding-left: 20px;
   margin-bottom: 1.5rem;
   font-size: 14px;
-  font-family: "Roboto-bold";
+  font-family: Roboto-bold;
   background: none;
   border: solid 2px #CACACA;
   border-radius: 3px;
@@ -228,45 +240,56 @@ form :first-child {
   border: none;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .header li {
     display: block;
   }
+
   nav {
     margin-top: 18px;
   }
+
   .screach-input {
     width: 100%;
   }
+
   .screach {
-    margin: 0px;
+    margin: 0;
     width: 100%;
     margin-top: 18px;
   }
+
   .form-input {
     width: 100%;
   }
+
   form :first-child {
     margin-right: 0;
   }
+
   .baner {
     padding-top: 248px;
   }
+
   .baner h2 {
     margin-bottom: 16px;
   }
+
   .baner p {
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
+
 .pageprice {
   background-color: #08020D;
   text-align: center;
 }
+
 .pageprice .container {
   max-width: 1240px;
   padding: 0 20px;
@@ -290,24 +313,29 @@ h2 {
   color: white;
   border-radius: 1rem;
 }
+
 .price-card h3 {
   margin-bottom: 200px;
   margin-top: 24px;
   font-weight: 400;
 }
+
 .price-card button {
   margin-bottom: 64px;
   width: 100%;
   background: none;
   border: 1px solid white;
 }
+
 .price-card button a {
   color: white;
   font-size: 16px;
 }
+
 .price-card span {
   color: white;
 }
+
 .price-card .small-text {
   margin-bottom: 64px;
 }
@@ -332,31 +360,38 @@ h2 {
   background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .pageprice {
     height: 2222px;
   }
+
   .price-card {
     max-width: 375px;
   }
+
   .price-card h3 {
     margin-top: 16px;
     font-weight: 400;
   }
+
   .bg-free {
     background: url("../images/subscribe_1.png") 0 0/cover no-repeat;
   }
+
   .bg-standart {
     background: url("../images/subscribe_2.png") 0 0/cover no-repeat;
   }
+
   .bg-premium {
     background: url("../images/subscribe_3.png") 0 0/cover no-repeat;
   }
+
   .card-section {
     flex-direction: column;
     gap: 50px;
   }
 }
+
 .main-background {
   background-color: #08020D;
   text-align: center;
@@ -378,18 +413,20 @@ h2 {
   gap: 50px;
   margin-bottom: 65px;
 }
+
 .news-item span {
   font-size: 12px;
 }
 
 .news-item:last-of-type {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .news-footer {
   display: flex;
   flex-direction: column;
 }
+
 .news-footer button {
   width: 135px;
   padding: 17px 30px;
@@ -398,6 +435,7 @@ h2 {
   font-size: 12px;
   color: #CACACA;
 }
+
 .news-footer button a {
   font-size: 16px;
 }
@@ -406,13 +444,15 @@ h2 {
   align-items: flex-start;
   text-align: left;
 }
+
 .news-text h3 {
   font-size: 30px;
-  font-family: "Roboto-regular";
+  font-family: Roboto-regular;
   margin-bottom: 30px;
   font-weight: 400;
   text-transform: none;
 }
+
 .news-text p {
   margin-bottom: 24px;
   color: #CACACA;
@@ -429,26 +469,31 @@ h2 {
   color: #F89202;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .album {
     width: 100%;
   }
+
   .news-item {
     flex-wrap: wrap;
   }
+
   .news-item h3 {
     margin-bottom: 16px;
     font-size: 16px;
   }
+
   .news-item:last-of-type {
     flex-direction: column-reverse;
   }
 }
+
 #page-app {
   padding-top: 100px;
   margin-bottom: 100px;
   background-color: #08020D;
 }
+
 #page-app h2 {
   margin-bottom: 48px;
 }
@@ -464,6 +509,7 @@ h2 {
   text-align: start;
   font-size: 16px;
 }
+
 .text-block-app p {
   color: #CACACA;
 }
@@ -475,25 +521,29 @@ h2 {
   background-color: #95390C;
   border: none;
 }
+
 .btn-app a {
   color: white;
   font-size: 12.8px;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .app-container {
     flex-direction: column-reverse;
-    gap: 0px;
+    gap: 0;
   }
+
   .text-block-app {
     width: 100%;
   }
+
   .iphone-image {
     width: 333px;
     height: 278px;
     align-self: center;
   }
 }
+
 .bg-footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -508,14 +558,17 @@ h2 {
 footer {
   text-align: left;
 }
+
 footer h3 {
   margin-bottom: 15px;
   font-size: 18px;
 }
+
 footer .container {
   padding: 0 20px;
   max-width: 1240px;
 }
+
 footer img {
   margin-right: 24px;
 }
@@ -535,14 +588,16 @@ footer img {
   padding-bottom: 50px;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .footer_links {
     flex-direction: column;
   }
+
   .footer_grid {
     gap: 30px;
   }
 }
+
 .bacground-artist {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
@@ -552,9 +607,11 @@ footer img {
 .artist-baner {
   padding-top: 250px;
 }
+
 .artist-baner h1 {
   margin-bottom: 16px;
 }
+
 .artist-baner p {
   margin-bottom: 48px;
 }
@@ -582,36 +639,43 @@ footer img {
   font-size: 12.8px;
   border: none;
 }
+
 .artist-btn img {
   width: 20px;
   height: 20px;
   filter: invert(1);
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .artist-btns {
     flex-direction: column;
     gap: 24px;
   }
+
   .artist-baner {
     padding-top: 225px;
   }
 }
+
 #page-popular-track {
   padding-top: 100px;
   padding-right: 70px;
 }
+
 #page-popular-track h2 {
   margin-bottom: 48px;
 }
+
 #page-popular-track h3 {
   font-size: 12.8px;
   line-height: 19.2px;
 }
+
 #page-popular-track p {
   font-size: 12.8px;
   color: #CACACA;
 }
+
 #page-popular-track img {
   width: 55px;
   height: 55px;
@@ -622,8 +686,7 @@ footer img {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
 }
 
 .track {
@@ -638,28 +701,33 @@ footer img {
   align-items: center;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .tracks-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
   #page-popular-track {
     padding-right: 20px;
   }
 }
+
 #page-discography {
   padding-top: 100px;
   padding-right: 50px;
 }
+
 #page-discography img {
   width: 250px;
   height: 250px;
   margin-bottom: 18px;
 }
+
 #page-discography h3 {
   font-size: 18px;
   text-transform: none;
-  margin-top: 0px;
+  margin-top: 0;
 }
+
 #page-discography p {
   font-size: 16px;
   color: #E0E0E0;
@@ -668,34 +736,39 @@ footer img {
 .albums-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
-  grid-column-gap: 50px;
-  grid-row-gap: 25px;
+  grid-gap: 25px 50px;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   #page-discography img {
     width: 137px;
     height: 137px;
     margin-bottom: 11px;
   }
+
   .albums-grid {
     grid-template-columns: repeat(auto-fill, 138px);
   }
 }
+
 #page-similar {
+  margin-bottom: 100px;
   padding-top: 100px;
   padding-right: 50px;
 }
+
 #page-similar img {
   width: 250px;
   height: 250px;
   margin-bottom: 11px;
 }
+
 #page-similar h3 {
   font-size: 18px;
   text-transform: none;
-  margin-top: 0px;
+  margin-top: 0;
 }
+
 #page-similar p {
   font-size: 16px;
   color: #E0E0E0;
@@ -704,23 +777,21 @@ footer img {
 .similars {
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
-  grid-column-gap: 50px;
-  grid-row-gap: 25px;
+  grid-gap: 25px 50px;
 }
 
 .similar-item {
   text-align: center;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
   #page-similar img {
     width: 137px;
     height: 137px;
     margin-bottom: 11px;
   }
+
   #page-similar .similars {
     grid-template-columns: repeat(auto-fill, 137px);
   }
 }
-
-/*# sourceMappingURL=style.css.map */

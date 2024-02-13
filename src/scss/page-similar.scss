@@ -1,16 +1,20 @@
 #page-similar{
+    margin-bottom: 100px;
     padding-top: 100px;
     padding-right: 50px;
+
         img{
             width: 250px;
             height: 250px;
             margin-bottom: 11px;
         }
+
         h3{
             font-size: 18px;
             text-transform: none;
-            margin-top: 0px;
+            margin-top: 0;
         }
+
         p{
             font-size: 16px;
             color: $gray;
@@ -21,20 +25,21 @@
 .similars{
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
-    grid-column-gap: 50px;
-    grid-row-gap: 25px;
+    grid-gap: 25px 50px;
 }
+
 .similar-item{
     text-align: center;
 }
 
-@media (max-width: 415px) {
+@media (width <= 415px) {
     #page-similar{
         img{
             width: 137px;
             height: 137px;
             margin-bottom: 11px;
         }
+
         .similars{
             grid-template-columns: repeat(auto-fill, 137px);
         }

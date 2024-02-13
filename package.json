@@ -1,0 +1,27 @@
+{
+  "name": "golovanyamusic",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Golovanya/layout-designer-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Golovanya/layout-designer-project-56/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Golovanya/layout-designer-project-56.git"
+  },
+  "author": "golovanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Golovanya/layout-designer-project-56/issues"
+  },
+  "homepage": "https://github.com/Golovanya/layout-designer-project-56#readme",
+  "dependencies": {
+    "save-dev": "^0.0.1-security",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

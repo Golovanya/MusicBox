@@ -3,26 +3,33 @@
   background-position: center;
   background-size: cover;
 }
+
 .artist-baner {
   padding-top: 250px;
+
   h1 {
     margin-bottom: 16px;
   }
+
   p {
     margin-bottom: 48px;
   }
 }
+
 .artist-btns {
   display: flex;
   gap: 16px;
   padding-bottom: 224px;
 }
+
 .artist-btn:first-child {
   background-color: #5328a1;
 }
+
 .artist-btn:last-child {
   background-color: #95390c;
 }
+
 .artist-btn {
   display: flex;
   align-items: center;
@@ -30,18 +37,22 @@
   gap: 16px;
   width: 200px;
   font-size: 12.8px;
+
   img {
     width: 20px;
     height: 20px;
     filter: invert(1);
   }
+
   border: none;
 }
-@media (max-width: 415px) {
+
+@media (width <= 415px) {
   .artist-btns {
     flex-direction: column;
     gap: 24px;
   }
+
   .artist-baner {
     padding-top: 225px;
   }
