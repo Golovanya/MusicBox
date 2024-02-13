@@ -658,6 +658,7 @@ footer img {
 #page-discography h3 {
   font-size: 18px;
   text-transform: none;
+  margin-top: 0px;
 }
 #page-discography p {
   font-size: 16px;
@@ -675,6 +676,7 @@ footer img {
   #page-discography img {
     width: 137px;
     height: 137px;
+    margin-bottom: 11px;
   }
   .albums-grid {
     grid-template-columns: repeat(auto-fill, 138px);
