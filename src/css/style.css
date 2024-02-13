@@ -646,5 +646,39 @@ footer img {
     padding-right: 20px;
   }
 }
+#page-discography {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+#page-discography img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 18px;
+}
+#page-discography h3 {
+  font-size: 18px;
+  text-transform: none;
+}
+#page-discography p {
+  font-size: 16px;
+  color: #E0E0E0;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+}
+
+@media (max-width: 415px) {
+  #page-discography img {
+    width: 137px;
+    height: 137px;
+  }
+  .albums-grid {
+    grid-template-columns: repeat(auto-fill, 137px);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
