@@ -43,6 +43,9 @@
         .similars{
             grid-template-columns: repeat(auto-fill, 137px);
         }
+        .similars, .albums-grid{
+            justify-content: start;
+        }
     } 
 }
 @media (width <= 620px){

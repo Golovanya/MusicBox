@@ -383,6 +383,9 @@ h2 {
   flex-direction: column;
   padding-top: 100px;
 }
+#page-news h2 {
+  text-align: center;
+}
 
 .news-item {
   display: flex;
@@ -470,6 +473,7 @@ h2 {
 }
 #page-app h2 {
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .app-container {
@@ -733,6 +737,9 @@ footer img {
   }
   #page-similar .similars {
     grid-template-columns: repeat(auto-fill, 137px);
+  }
+  #page-similar .similars, #page-similar .albums-grid {
+    justify-content: start;
   }
 }
 @media (width <= 620px) {
