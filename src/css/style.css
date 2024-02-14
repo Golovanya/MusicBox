@@ -695,8 +695,9 @@ footer img {
     height: 137px;
     margin-bottom: 11px;
   }
-  .albums-grid {
+  #page-discography .albums-grid {
     grid-template-columns: repeat(auto-fill, 138px);
+    justify-content: start;
   }
 }
 #page-similar {
@@ -738,7 +739,7 @@ footer img {
   #page-similar .similars {
     grid-template-columns: repeat(auto-fill, 137px);
   }
-  #page-similar .similars, #page-similar .albums-grid {
+  #page-similar .similars {
     justify-content: start;
   }
 }

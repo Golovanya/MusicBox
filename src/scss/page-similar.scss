@@ -43,13 +43,13 @@
         .similars{
             grid-template-columns: repeat(auto-fill, 137px);
         }
-        .similars, .albums-grid{
+        .similars{
             justify-content: start;
         }
     } 
 }
 @media (width <= 620px){
-    .similars, .albums-grid{
+    .similars,.albums-grid{
         justify-content: center;
     }
 }
