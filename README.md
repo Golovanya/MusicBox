@@ -5,7 +5,7 @@
 Адапивная верстка по [макету](https://www.figma.com/file/b6AjhwQsQeSeoIteenOTIp/Hexlet-LayoutDesigner-Project.-Music-Box)
 ## Технологии
 + HTML
-+ SCSS (SCSS)
++ CSS (SCSS)
 + Stylelint
 
 [демонстрация проекта](https://musuc-box-golovanya.vercel.app/)
