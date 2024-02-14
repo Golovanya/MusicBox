@@ -119,8 +119,9 @@ form {
     align-items: flex-start;
     gap: 18px;
   }
+
   .screach {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
 }
@@ -128,7 +129,8 @@ form {
 @media (width <= 415px) {
   .header {
     align-items: flex-start;
-    gap: 0px;
+    gap: 0;
+
     li {
       display: block;
     }
@@ -146,7 +148,7 @@ form {
     margin: 0;
     width: 100%;
     margin-top: 18px;
-    gap: 0px ;
+    gap: 0 ;
   }
 
   .form-input {

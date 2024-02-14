@@ -42,12 +42,11 @@
 
         .similars{
             grid-template-columns: repeat(auto-fill, 137px);
-        }
-        .similars{
             justify-content: start;
         }
     } 
 }
+
 @media (width <= 620px){
     .similars,.albums-grid{
         justify-content: center;

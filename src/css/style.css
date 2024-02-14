@@ -235,13 +235,13 @@ form :first-child {
     gap: 18px;
   }
   .screach {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (width <= 415px) {
   .header {
     align-items: flex-start;
-    gap: 0px;
+    gap: 0;
   }
   .header li {
     display: block;
@@ -256,7 +256,7 @@ form :first-child {
     margin: 0;
     width: 100%;
     margin-top: 18px;
-    gap: 0px;
+    gap: 0;
   }
   .form-input {
     width: 100%;
@@ -738,8 +738,6 @@ footer img {
   }
   #page-similar .similars {
     grid-template-columns: repeat(auto-fill, 137px);
-  }
-  #page-similar .similars {
     justify-content: start;
   }
 }
