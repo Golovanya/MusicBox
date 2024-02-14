@@ -76,6 +76,12 @@ h2 {
   background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 
+  @media (width <= 1240px){
+    .card-section{
+      justify-content: center;
+    }
+  }
+
 @media (width <= 415px){
     .pageprice{
         height: 2222px;

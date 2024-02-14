@@ -113,11 +113,22 @@ form {
   border: none;
 }
 
-@media (width <= 415px) {
-  .header {
+@media (width <= 825px){
+  .header{
     flex-direction: column;
     align-items: flex-start;
+    gap: 18px;
+  }
+  .screach {
+    margin-left: 0px;
+  }
 
+}
+
+@media (width <= 415px) {
+  .header {
+    align-items: flex-start;
+    gap: 0px;
     li {
       display: block;
     }
@@ -135,6 +146,7 @@ form {
     margin: 0;
     width: 100%;
     margin-top: 18px;
+    gap: 0px ;
   }
 
   .form-input {

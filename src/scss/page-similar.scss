@@ -45,3 +45,8 @@
         }
     } 
 }
+@media (width <= 620px){
+    .similars, .albums-grid{
+        justify-content: center;
+    }
+}
